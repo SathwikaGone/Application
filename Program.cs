@@ -46,16 +46,16 @@ namespace application
             if(avg >=90 && avg <=100){
                 c='a';
                 }
-                    if(avg >=80.0 && avg <89.9){
+                    else if(avg >=80.0 && avg <89.9){
                 c='b';
                 }
-                 if(avg >=70.0 && avg <79.9){
+                 else if(avg >=70.0 && avg <79.9){
                 c='c';
                 }
-                  if(avg>=0 && avg <70){
+                  else if(avg>=0 && avg <70){
                     c='d';
                 }
-                if(avg >100 && avg <0){
+               else if(avg >100 && avg <0){
                     c='e';
                 }
                
