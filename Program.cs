@@ -20,6 +20,7 @@ namespace application
             var scholarship=0.0m;
             Console.WriteLine(" Welcome to CHECK SCHOLARSHIP application");
 
+
            do{
             Console.WriteLine("Enter your Name \n");
             name=Console.ReadLine();
